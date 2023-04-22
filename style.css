@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  /*Стили для шапки*/
+  header{
+    text-align: center;
+    color: #fff;
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  /*header:hover{
+    background-color: #ffffff;
+    color: #000;
+    animation: move 1s infinite linear;
+  }
+
+  @keyframes move {
+    0% {
+      color: #000;
+      background: rgb(255, 255, 255);
+    }
+    50% {
+      color: #fff;
+      background: #242424;
+    }
+    100% {
+      color: #000;
+      background: rgb(255, 255, 255);
+    }
+  }*/
+  section img {
+    width: 50px;
+    height: 50px;
+    vertical-align:middle
+  }
+  a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ff5673;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  section{
+    background-color: #e7f3f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  /*Стили для заголовков*/
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /*Стили для ссылок*/
+  a:hover {
+    color: #333;
+    transition: all 0.3s ease-in-out; 
+  }
+
+  /*Стили для кнопок*/
+  button, a.button {
+    background-color: #ff5673;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  button:hover, a.button:hover {
+    /*background-color: #ec2042;*/
+    background-color: #ffffff;
+    outline: 1px solid #ec2042;
+    color: #ec2042;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  /*Стили для завершения анимации*/
+  a {
+    text-decoration: none;
+    color: #ff5673;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  /*Стили для секций */
+  section {
+    box-shadow: rgba(0,0,0,0.1) 0px 5px 10px;
+  }  
+
+  /*Стили для подвала */
+  footer {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  /*Стили для телеграм канала*/
+  section:nth-of-type(2) {
+    background-color: #e7f3f9;
+  }
+  
+  section:nth-of-type(2) a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /*Стили для новостей*/ 
+  section:nth-of-type(3) {
+    background-color: #fff;
+  }
+
+  .s1 {
+    background-image: url(ико/background-banner-article-telegram.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
+  }
