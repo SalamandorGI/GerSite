@@ -1,0 +1,92 @@
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .result {
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #eee;
+    color: #333;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ccc;
+  }
+  
+  .operator {
+    background-color: #f8caca;
+    color: #c0392b;
+  }
+  
+  .equals {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .clear {
+    background-color: #f1c40f;
+    color: #fff;
+  }
+  
+  /* Стили для кнопок со специальными символами */
+  .special {
+    background-color: #bdc3c7;
+    color: #333;
+  }
+  
+  /* Стили для кнопки точки */
+  .dot {
+    font-size: 30px;
+  }
+  
+  /* Стили для кнопки AC */
+  .clear-all {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  /* Стили для кнопки удаления последнего символа */
+  .backspace {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  /* Стили для кнопок с цифрами */
+  .number {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Стили для операционных кнопок */
+  .operation {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  /* Стили для кнопки равенства */
+  .equals {
+    font-size: 30px;
+  }
